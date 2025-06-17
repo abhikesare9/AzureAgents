@@ -2,9 +2,9 @@ import os
 import base64
 from openai import AzureOpenAI
 
-endpoint = os.getenv("ENDPOINT_URL", "https://june16.openai.azure.com/")
-deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4.1")
-subscription_key = "59laGrhxCvqEGck89UoAwBVC0QURaxbbIybZAxLMSO0ndOm7FuHoJQQJ99BFACYeBjFXJ3w3AAAAACOGaizs"
+endpoint = "https://vectorsense.cognitiveservices.azure.com/"
+deployment =  "gpt-4.1"
+subscription_key = "6dsJ9CnMmr7ekNfNrLAHq974gjotVMvn353OkmR0wVMFVWn78CI0JQQJ99BFACYeBjFXJ3w3AAAAACOGJqJt"
 
 # Initialize Azure OpenAI client with key-based authentication
 client = AzureOpenAI(
@@ -20,7 +20,7 @@ chat_prompt = [
         "content": [
             {
                 "type": "text",
-                "text": "You are an AI assistant that helps people find information."
+                "text": "You are expert person from automotive industry."
             }
         ]
     },
