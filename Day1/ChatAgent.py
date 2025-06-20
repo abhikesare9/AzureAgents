@@ -20,7 +20,11 @@ chat_prompt = [
         "content": [
             {
                 "type": "text",
+<<<<<<< Updated upstream
                 "text": "You are expert person from automotive industry."
+=======
+                "text": "You are expert of automobile industry."
+>>>>>>> Stashed changes
             }
         ]
     },
@@ -29,7 +33,7 @@ chat_prompt = [
         "content": [
             {
                 "type": "text",
-                "text": "Tell me about Ferrari."
+                "text": "Please provide me details about vw cars."
             }
         ]
     }

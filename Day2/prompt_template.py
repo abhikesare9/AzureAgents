@@ -23,7 +23,7 @@ def get_completion(prompt):
     chat_completion = openai.ChatCompletion.create(
             deployment_id="gpt-4.1",
             messages=messages,
-            temperature=0.7,
+            temperature=0.1,
             max_tokens=1024,
             n=1,
         )
